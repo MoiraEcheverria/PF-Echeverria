@@ -1,0 +1,33 @@
+footer{
+    background-color: darkred;
+    color: $color-items;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    font-family: 'MarcellusSC-Regular';
+    padding: 1rem;
+    div p{
+        padding-bottom: 1rem;
+        font-family:'MarcellusSC-Regular' ;
+        color: $color-items;
+    }
+    ul li{
+        display: flex;
+        gap: 0.5rem;
+        color: $color-items;
+    }
+}
+
+@media(min-width: 768px){
+    footer{
+        gap: 1rem;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        div{
+            height:100px;
+        }
+    }
+}

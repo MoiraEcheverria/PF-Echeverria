@@ -1,0 +1,68 @@
+$color-titulos: darkred;
+$color-parrafos: wheat;
+$color-items: white ;
+$color-hover:#303030;
+$color-active: #3f0e0e;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/fondo.jpg');
+}
+    
+@font-face {
+    font-family: 'MarcellusSC-Regular';
+    src: url(../fonts/Marcellus_SC/MarcellusSC-Regular.ttf);
+   
+}
+
+ul{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: $color-items;
+    }
+}
+
+
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    display: none;
+}
+
+
+h2{
+    font-family: 'MarcellusSC-Regular';
+    color: $color-titulos;
+    font-size: 2rem
+}
+
+
+h3{
+    color: $color-titulos;
+    font-family: 'MarcellusSC-Regular';
+    padding-bottom: 0.5rem;
+    font-size: 1.50rem;
+}
+
+
+h4{
+    font-family: 'MarcellusSC-Regular';
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: $color-parrafos;
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: $color-parrafos;
+}

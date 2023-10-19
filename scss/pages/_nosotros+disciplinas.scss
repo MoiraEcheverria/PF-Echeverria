@@ -1,0 +1,41 @@
+.caja__descripcion-texto{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.contenedor_de_cajas:last-child{
+    margin-bottom: 2rem;
+}
+
+
+@media(min-width: 768px){
+
+    .caja__descripcion{
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1a1a;
+    height: 250px;
+    border-radius: 20px;
+
+    margin: 1rem;
+
+    &-texto{
+        width: 65%;
+    }
+
+
+    &-imagen{
+        width: 35%;
+        height: 100%;
+    }
+
+    & img{
+        height: 100%;
+        object-fit: cover
+    }
+    }
+
+    .contenedor_de_cajas{
+        padding: 1rem;
+    }
+    }
