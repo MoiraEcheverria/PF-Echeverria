@@ -1,6 +1,5 @@
 .contenido{
-    display: flex;
-    flex-direction: column;
+    @include flexbox(column);
     
     gap: 1rem;
     
@@ -11,8 +10,7 @@
     }
     
     &__texto{
-        display: flex;
-        flex-direction: column;
+        @include flexbox(column);
         padding: 1rem;
     }
     }
@@ -29,8 +27,7 @@
                 text-align:left;
             }
             &__texto{
-                display: flex;
-                flex-direction: column;
+                @include flexbox(column);
                 gap: 1rem;
                 height: 80%;
                 

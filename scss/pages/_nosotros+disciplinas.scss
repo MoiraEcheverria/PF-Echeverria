@@ -1,6 +1,5 @@
 .caja__descripcion-texto{
-    display: flex;
-    flex-direction: column;
+    @include flexbox(column);
     padding: 1rem;
 }
 .contenedor_de_cajas:last-child{
@@ -11,8 +10,7 @@
 @media(min-width: 768px){
 
     .caja__descripcion{
-    display: flex;
-    flex-direction: row;
+        @include flexbox(row);
     background-color: #1c1a1a;
     height: 250px;
     border-radius: 20px;

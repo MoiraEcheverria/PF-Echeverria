@@ -3,6 +3,7 @@ $color-parrafos: wheat;
 $color-items: white ;
 $color-hover:#303030;
 $color-active: #3f0e0e;
+$color-background: black;
 
 *{
     margin: 0;
@@ -12,6 +13,7 @@ $color-active: #3f0e0e;
 
 body{
     background-image: url('/img/fondo.jpg');
+    background-color: $color-background;
 }
     
 @font-face {
@@ -65,4 +67,9 @@ p{
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
     color: $color-parrafos;
+}
+
+@mixin flexbox($direction){
+    display: flex;
+    flex-direction: $direction;
 }
