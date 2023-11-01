@@ -3,7 +3,6 @@ $color-parrafos: wheat;
 $color-items: white ;
 $color-hover:#303030;
 $color-active: #3f0e0e;
-$color-background: black;
 
 *{
     margin: 0;
@@ -12,9 +11,11 @@ $color-background: black;
 }
 
 body{
-    background-image: url('/img/fondo.jpg');
-    background-color: $color-background;
+    background: rgb(48,48,48);
+    background: linear-gradient(90deg, rgba(48,48,48,1) 0%, rgba(0,0,0,1) 25% 75%, rgba(48,48,48,1) 100%);
 }
+
+
     
 @font-face {
     font-family: 'MarcellusSC-Regular';

@@ -5,8 +5,8 @@
 }
 
 body {
-  background-image: url("/img/fondo.jpg");
-  background-color: black;
+  background: rgb(48, 48, 48);
+  background: linear-gradient(90deg, rgb(48, 48, 48) 0%, rgb(0, 0, 0) 25% 75%, rgb(48, 48, 48) 100%);
 }
 
 @font-face {
@@ -129,7 +129,7 @@ header nav ul li:hover {
     width: 50%;
   }
   nav ul li {
-    padding: 10px 80px 10px 80px;
+    padding: 10px 50px 10px 50px;
   }
 }
 footer {
@@ -162,7 +162,7 @@ footer ul li {
     align-items: center;
   }
   footer div {
-    height: 100px;
+    height: 80px;
   }
 }
 .contenido {
@@ -214,8 +214,8 @@ footer ul li {
     margin: auto;
   }
   .contenido__imagen-portada {
+    width: auto;
     height: 100%;
-    width: 450px;
   }
   .imagen-principal {
     width: auto;
