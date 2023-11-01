@@ -44,7 +44,8 @@ h1{
 h2{
     font-family: 'MarcellusSC-Regular';
     color: $color-titulos;
-    font-size: 2rem
+    font-size: 2rem;
+    text-shadow: 5px 5px 12px black;
 }
 
 
@@ -53,6 +54,7 @@ h3{
     font-family: 'MarcellusSC-Regular';
     padding-bottom: 0.5rem;
     font-size: 1.50rem;
+    text-shadow: 5px 5px 12px black;
 }
 
 
@@ -61,6 +63,7 @@ h4{
     padding-bottom: 0.5rem;
     font-size: 1.25rem;
     color: $color-parrafos;
+    text-shadow: 5px 5px 12px black;
 }
 
 p{
@@ -72,4 +75,12 @@ p{
 @mixin flexbox($direction){
     display: flex;
     flex-direction: $direction;
+}
+
+@keyframes cambia-filtro{
+    0%{filter: none()};
+    25%{filter: sepia()};
+    50%{filter: none()};
+    75%{filter: sepia()};
+    100%{filter: none() };
 }

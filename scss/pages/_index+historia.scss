@@ -15,12 +15,18 @@
     }
     }
     
-    
+.imagen-principal{
+    animation-name: cambia-filtro;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
     @media(min-width: 768px){
         .contenido{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            min-height: 70vh;
+            min-height: 90vh;
             align-items: center;
     
             &__titulo{
@@ -35,21 +41,26 @@
             &__imagen{
                 height: 100%;
                 width: 100%;
-                img{
-                    height: 100%;
-                    object-fit: cover;
-                    align-items: center;
-                    width: 100%;
-                    padding: 1rem;
-    
-                }
+                object-fit: cover;
+              
             }
-        }
+           
+            }
         
         body main{
             max-width: 800px;
             margin: auto;
-    
         }
+
+    .contenido__imagen-portada{
+        height: 100%;
+        width: 450px;
+    }
+
+    .imagen-principal{
+        width: auto;
+        height: 100%;
+
+    }
     }
     
