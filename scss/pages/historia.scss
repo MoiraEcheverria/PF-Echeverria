@@ -1,0 +1,25 @@
+.historia{
+
+    &__contenedor{}
+
+    &__titulo{}
+
+    &__texto{}
+
+    &__imagen{}
+}
+
+@media(min-width: 768px){
+
+    .historia{
+
+        &__contenedor{}
+    
+        &__titulo{}
+    
+        &__texto{}
+    
+        &__imagen{}
+    }
+    
+}
