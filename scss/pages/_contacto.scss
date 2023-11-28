@@ -5,7 +5,10 @@
     padding: 1rem;
     
     }
+.contenido__texto{
 
+    text-align: center;
+}
     .info{
         margin-bottom: 1rem;
     }
@@ -52,6 +55,13 @@
     
     @media(min-width: 768px){
         
+
+    .caja-formulario {
+        @include flexbox(column);
+        align-items: center;
+
+}
+
         .info{
             width: 600px;
         }

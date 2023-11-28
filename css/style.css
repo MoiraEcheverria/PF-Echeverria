@@ -300,6 +300,10 @@ footer ul li {
   padding: 1rem;
 }
 
+.contenido__texto {
+  text-align: center;
+}
+
 .info {
   margin-bottom: 1rem;
 }
@@ -340,6 +344,11 @@ footer ul li {
 }
 
 @media (min-width: 768px) {
+  .caja-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .info {
     width: 600px;
   }
